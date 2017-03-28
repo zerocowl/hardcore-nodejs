@@ -1,0 +1,13 @@
+{
+    "name": "aula1",
+    "version": "0.0.1",
+    "description": "aula1 nodejs ",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODENV=prod node index.js",
+        "remove-test": "rm test.txt",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "zerocool",
+    "license": "MIT"
+}
