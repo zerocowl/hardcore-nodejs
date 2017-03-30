@@ -1,0 +1,14 @@
+{
+    "apps": [{
+        "name": "aula3",
+        "script": "index.js",
+        "exec_interpreter": "babel-node",
+        "watch": true,
+        "cwd": "./",
+        "exec-mode": "fork",
+        "error-file": "./logs/err.log",
+        "out_file": "./logs/out.log",
+        "log_date_format": "YYYY-MM-DD HH:mm Z"
+
+    }]
+}

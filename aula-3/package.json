@@ -1,0 +1,21 @@
+{
+    "name": "inicio_express",
+    "version": "1.0.0",
+    "description": "inicio express - aula 03",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "pm2 delete ecosystem.json; pm2 startOrReload ecosystem.json"
+    },
+    "author": "zerocool",
+    "license": "ISC",
+    "dependencies": {
+        "babel": "^6.23.0",
+        "babel-preset-es2015": "^6.24.0",
+        "babel-preset-stage-3": "^6.22.0",
+        "express": "^4.15.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.0"
+    }
+}
