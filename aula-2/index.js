@@ -12,7 +12,6 @@ var server = http.createServer(function(_req, _res) {
     var req = _req;
     var res = _res;
 
-
     res.writeHeader(200, {
         'Content-type': 'text/html'
     });
@@ -32,8 +31,6 @@ var server = http.createServer(function(_req, _res) {
             });
             break;
     }
-
-
 
 });
 

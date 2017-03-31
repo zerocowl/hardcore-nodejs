@@ -1,0 +1,11 @@
+{
+  "name": "exercicio-aula2",
+  "version": "0.0.1",
+  "description": "Exercicio da aula 02",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zerocool",
+  "license": "ISC"
+}
