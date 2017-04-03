@@ -1,4 +1,4 @@
-#HTTP SERVER
- facilitar o escopo das variavies
+# HTTP SERVER
+
 
  sync nao precisa ter res.end
