@@ -4,7 +4,7 @@
         "script": "index.js",
         "exec_interpreter": "babel-node",
         "watch": true,
-        "cwd": "./",
+        "ignore_watch": ["logs", "node_modules", ";idea"],
         "exec-mode": "fork",
         "error-file": "./logs/err.log",
         "out_file": "./logs/out.log",
