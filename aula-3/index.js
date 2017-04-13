@@ -6,7 +6,8 @@ const PORT = 3000;
 const app = express();
 
 consign()
-    .include("models")
+    .include("./config.js")
+    .then("./db.js")
     .then("routes")
     .into(app);
 
