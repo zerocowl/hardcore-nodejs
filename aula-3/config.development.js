@@ -1,6 +1,7 @@
 const dbHost = process.env.DB_HOST || '127.0.0.01';
 
 module.exports = {
+    port: 3000,
     db: {
         username: "",
         password: "",
